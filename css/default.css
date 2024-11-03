@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;  
+    font-family: Cambria, sans-serif;  
     font-size: 24px;         /*!!!! ШРИФТ */
     min-width: 320px;
     min-height: 100vh;
@@ -70,4 +70,11 @@ fieldset {
 .visually-hidden {                            /* screen readers */
     position: fixed;
     transform: scale(0);
+}
+
+@media (max-width:360px) {
+  html {
+    --container: 360px;
+    --padding-container: 0px;
+  }
 }
